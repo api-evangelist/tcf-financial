@@ -1,0 +1,59 @@
+name: TCF Financial Corporation
+description: |-
+  Profile for TCF Financial Corporation, a former Detroit-headquartered regional
+  bank holding company (Twin City Building and Loan Association, founded 1923).
+  TCF was merged into Huntington Bancshares Incorporated on June 9, 2021, and
+  the TCF brand was fully retired. This repository is preserved for historical
+  record only — TCF Financial no longer operates and exposes no APIs. All
+  banking, treasury, deposit, and lending services formerly offered under the
+  TCF brand are now operated by Huntington National Bank under the Huntington
+  brand. See the huntington-bancshares repository for current API surface (which
+  is itself minimal; Huntington exposes no public developer portal).
+image: https://avatars.githubusercontent.com/u/api-evangelist
+created: '2026-05-05'
+modified: '2026-05-23'
+url: https://github.com/api-evangelist/tcf-financial
+specificationVersion: '0.16'
+tags:
+  - Banking
+  - Regional Bank
+  - Defunct
+  - Merger
+  - Historical
+apis: []
+common:
+  - type: Successor
+    url: https://www.huntington.com
+  - type: SuccessorGitHub
+    url: https://github.com/Huntington-National-Bank
+  - type: SuccessorProfile
+    url: https://github.com/api-evangelist/huntington-bancshares
+  - type: MergerAnnouncement
+    url: https://ir.huntington.com/press-releases
+  - type: SECEDGAR
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000273288
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/TCF_Financial_Corporation
+maintainers:
+  - FN: API Evangelist
+    url: https://apievangelist.com
+    email: info@apievangelist.com
+x-status: defunct
+x-merged-into: huntington-bancshares
+x-merger-close-date: '2021-06-09'
+x-former-hq: Detroit, Michigan
+x-former-assets-usd-billions: 47.8
+x-former-employees: 7123
+x-former-branches: 478
+x-former-states-served:
+  - Minnesota
+  - Illinois
+  - Michigan
+  - Colorado
+  - Wisconsin
+  - Ohio
+  - South Dakota
+x-founded: '1923'
+x-former-ticker: TCF
+x-fortune:
+  - Fortune 1000
