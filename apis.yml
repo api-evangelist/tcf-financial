@@ -9,6 +9,17 @@ description: |-
   TCF brand are now operated by Huntington National Bank under the Huntington
   brand. See the huntington-bancshares repository for current API surface (which
   is itself minimal; Huntington exposes no public developer portal).
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
