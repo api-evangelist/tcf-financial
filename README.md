@@ -1,4 +1,4 @@
-# tcf-financial
+# TCF Financial Corporation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,46 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Historical profile for **TCF Financial Corporation** in the API Evangelist network. Fortune 1000 (rank 979 at time of profiling). **Status: DEFUNCT.**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-## Status
+Profile for TCF Financial Corporation, a former Detroit-headquartered regional bank holding company (Twin City Building and Loan Association, founded 1923). TCF was merged into Huntington Bancshares Incorporated on June 9, 2021, and the TCF brand was fully retired. This repository is preserved for historical record only — TCF Financial no longer operates and exposes no APIs. All banking, treasury, deposit, and lending services formerly offered under the TCF brand are now operated by Huntington National Bank under the Huntington brand. See the huntington-bancshares repository for current API surface (which is itself minimal; Huntington exposes no public developer portal).
 
-TCF Financial Corporation no longer exists as an independent entity. On **June 9, 2021**, TCF was acquired by and merged into **Huntington Bancshares Incorporated** (NASDAQ: HBAN), headquartered in Columbus, Ohio. The TCF brand was fully retired, and all branches, accounts, deposits, loans, treasury services, and digital banking products were migrated to **Huntington National Bank**.
+**Areas:** Banking · Regional Bank · Defunct · Merger · Historical
 
-This repository is preserved as a historical record only. There are no APIs to document — TCF Financial operates no developer portal, publishes no OpenAPI specifications, exposes no public endpoints, and maintains no GitHub organization. Anyone looking for the successor surface should consult the [huntington-bancshares](https://github.com/api-evangelist/huntington-bancshares) profile (which is itself minimal — Huntington does not publish a public developer portal either; integrations are partner-channel only).
+## TCF Financial Corporation on APIs.io (historical record)
 
-## Pre-Merger Snapshot
+Everything profiled for TCF Financial Corporation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tcf-financial/](https://apis.io/providers/tcf-financial/)** — or go straight to one of the APIs or properties below.
 
-| Attribute | Value |
-| --- | --- |
-| Founded | 1923 (as Twin City Building and Loan Association) |
-| Headquarters | Detroit, Michigan |
-| Ticker (pre-merger) | NASDAQ: TCF |
-| Total assets (2020) | US $47.8 billion |
-| Employees (2020) | 7,123 |
-| Branches | 478 |
-| States served | Minnesota, Illinois, Michigan, Colorado, Wisconsin, Ohio, South Dakota |
-| Merger close | June 9, 2021 |
-| Successor | Huntington Bancshares Incorporated (NASDAQ: HBAN) |
+## API Evangelist rating
 
-Note: The "TCF" of 2019-2021 was itself the product of an August 2019 merger between the original TCF Financial and Chemical Financial Corporation, with the combined entity retaining the TCF name and relocating to Detroit. All of it now sits inside Huntington.
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-## Repository Contents
+## How this profile is made
 
-- `apis.yml` — APIs.json descriptor recording the defunct status, merger metadata, and pointer to the successor profile.
-- `README.md` — This file.
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-No `openapi/`, `capabilities/`, `rules/`, `schemas/`, `examples/`, `vocabulary/`, `plans/`, `rate-limits/`, or `finops/` artifacts exist or will be generated. Defunct companies do not get synthetic specifications.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TCF Financial Corporation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Successor
+## Open an issue
 
-For all current API, integration, treasury, and banking-product questions, see:
-
-- **Huntington website**: <https://www.huntington.com>
-- **Huntington API Evangelist profile**: <https://github.com/api-evangelist/huntington-bancshares>
-
-## Sources
-
-- Wikipedia, *TCF Financial Corporation*: <https://en.wikipedia.org/wiki/TCF_Financial_Corporation>
-- Huntington Bancshares investor relations: <https://ir.huntington.com>
-- SEC EDGAR (TCF historical filings): <https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000273288>
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tcf-financial/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
